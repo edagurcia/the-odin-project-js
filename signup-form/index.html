@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Project</title>
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <aside class="fondo-oscuro">
+        <div class="logo-container">
+          <img
+            src="/images/odin-lined.png"
+            alt="Imagen Centrada"
+            class="imagen-centrada"
+          />
+          <h1 class="texto-odin">ODIN</h1>
+        </div>
+      </aside>
+
+      <section>
+        <div class="message-container">
+          <p class="heading-message">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <span class="highlight">now</span> to get started.
+          </p>
+          <p class="sub-message">You know you want to.</p>
+        </div>
+
+        <form action="#" method="get" class="form-grid">
+          <h2 class="form-title">Let's do this!</h2>
+
+          <div class="input-field">
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name" required />
+          </div>
+
+          <div class="input-field">
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" required />
+          </div>
+
+          <div class="input-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="input-field">
+            <label for="phone_number">Phone Number</label>
+            <input
+              type="tel"
+              id="phone_number"
+              name="phone_number"
+              pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+              title="Format: 1234567890"
+            />
+          </div>
+
+          <div class="input-field">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              minlength="8"
+            />
+          </div>
+
+          <div class="input-field">
+            <label for="confirm_password">Confirm Password</label>
+            <input
+              type="password"
+              id="confirm_password"
+              name="confirm_password"
+              required
+              minlength="8"
+            />
+          </div>
+
+          <div class="form-actions">
+            <button type="submit">Create Account</button>
+          </div>
+
+          <p class="login-link">
+            Already have an account? <a href="#">Log in</a>
+          </p>
+        </form>
+      </section>
+    </main>
+  </body>
+  <script src="/script/code.js"></script>
+</html>
