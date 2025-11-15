@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Norse";
+  src: url("signup-form/fonts/nombre-de-tu-fuente.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-family: "Norse", sans-serif;
+  font-size: 3.5rem;
+  color: #374151;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  display: inline-block;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: #596d48;
+  padding: 10px 20px;
+  border: 2px solid #596d48;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #596d48;
+  color: white;
+  box-shadow: 0 4px 6px rgba(89, 109, 72, 0.4);
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 20px;
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  a {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+}
