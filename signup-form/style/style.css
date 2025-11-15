@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Norse";
-  src: url("/signup-form/fonts/Norse-Bold.otf") format("opentype");
+  src: url("../fonts/Norse-Bold.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -156,7 +156,7 @@ body {
     display: block;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("/signup-form/images/backgound.jpg");
+      url("../images/backgound.jpg");
     background-size: cover;
     background-position: center center;
     color: white;
